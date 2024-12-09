@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { BookCollectionComponent } from './book-collection/book-collection.component';
 import { BookListComponent } from './book-list/book-list.component';
