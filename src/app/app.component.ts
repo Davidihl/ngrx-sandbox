@@ -4,9 +4,9 @@ import { RouterOutlet } from '@angular/router';
 import { Store } from '@ngrx/store';
 import { BookCollectionComponent } from './book-collection/book-collection.component';
 import { BookListComponent } from './book-list/book-list.component';
-import { BooksActions, BooksApiActions } from './book-list/books.actions';
-import { selectBookCollection, selectBooks } from './book-list/books.selectors';
 import { GoogleBooksService } from './book-list/books.service';
+import { BooksActions, BooksApiActions } from './state/books.actions';
+import { selectBookCollection, selectBooks } from './state/books.selectors';
 
 @Component({
   selector: 'app-root',
